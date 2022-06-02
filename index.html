@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pals's 2ND</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript bootstraps Bundle with Popper -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="nav-bar-search-and-cart">
+            <a href="index.html">
+                <img src="images/invert-logo.png" alt="Logo">
+            </a>
+            <div class="search-cart">
+                <div class="form-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+        </div>
+        <ul>
+            <li>
+                <a href="#">Sản phẩm</a>
+                <div class="nav-bar-item-dropdown">
+                    <ul>
+                        <li>
+                            <a href="#">Giày</a>
+                        </li>
+                        <li>
+                            <a href="#">Quần Jeans</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <a href="#">Tư Vấn Size</a>
+            </li>
+            <li><a href="#lienhe">Liên hệ</a></li>
+        </ul>
+    </div>
+    <div class="full-poster-image">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/poster.png" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/poster2.png" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <h1 class="text-bold">Sản Phẩm</h1>
+    <hr>
+    <div class="product-container">
+        <div class="product-div">
+            <a href="product.html">
+                <img class=" product-img" src="images/product/leather_zip_boots.png" alt="Leather Zip Boots">
+            </a>
+            <hr>
+            <h1>Leather Zip Boots in Black</h1>
+            <h2>1.950.000đ</h2>
+        </div>
+
+        <!-- <div class="product-div">
+            <img class=" product-img"
+                src="images/product/flare-jean.png"
+                alt="Flare jeans">
+            <hr>
+            <h1>Flare jeans in black</h1>
+            <h2>650.000đ</h2>
+        </div>
+
+        <div class="product-div">
+            <img class=" product-img"
+                src="images/product/gen-ankle-boots.png"
+                alt="Gen Ankle Boots">
+            <hr>
+            <h1>Gen Ankle Boots</h1>
+            <h2>1.300.000đ</h2>
+        </div>
+
+        <div class="product-div">
+            <img class=" product-img"
+                src="images/product/the_ironic_chunky_derby.png"
+                alt="The Ironic Chunky Derby">
+            <hr>
+            <h1>The Ironic Chunky Derby</h1>
+            <h2>1.650.000đ</h2>
+        </div>
+
+        <div class="product-div">
+            <img class=" product-img"
+                src="images/product/chelsea-boots-black.png"
+                alt="Black Chelsea Boots">
+            <hr>
+            <h1>Leather Zip Boots in Black</h1>
+            <h2>1.950.000đ</h2>
+        </div>
+
+        <div class="product-div">
+            <img class=" product-img"
+                src="images/product/leather_zip_boots.png"
+                alt="Leather Zip Boots">
+            <hr>
+            <h1>Leather Zip Boots in Black</h1>
+            <h2>1.950.000đ</h2> -->
+    </div>
+    </div>
+
+    <div class="footer" id="lienhe" style="background-color: black">
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">Địa chỉ</p>
+                <p class="text-bold">Tân Bình, Hẻm 68, Bùi Thị Xuân</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">Theo dõi</p>
+                <div class="icon-footer">
+                    <a href="https://www.facebook.com/pthinh1026/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/palsxxvi/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">Liên hệ</p>
+                <a href="tel:09039690709">SĐT: 0903690709</a>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <h2>Made by: Pals</h2>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Bảng size</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/size-chart.png" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

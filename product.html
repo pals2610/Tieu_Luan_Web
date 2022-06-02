@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_product.css">
+    <!-- CSS bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript bootstraps Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick -->
+    <link rel="stylesheet" href="../DoAnWeb_TuLam/javascript/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../DoAnWeb_TuLam/javascript/slick-1.8.1/slick/slick-theme.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="nav-bar-search-and-cart">
+            <a href="index.html">
+                <img src="images/invert-logo.png" alt="Logo">
+            </a>
+            <div class="search-cart">
+                <div class="form-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+        </div>
+        <ul>
+            <li>
+                <a href="#">Sản phẩm</a>
+                <div class="nav-bar-item-dropdown">
+                    <ul>
+                        <li>
+                            <a href="#">Giày</a>
+                        </li>
+                        <li>
+                            <a href="#">Quần Jeans</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <a href="#">Tư Vấn Size</a>
+            </li>
+            <li><a href="#lienhe">Liên hệ</a></li>
+        </ul>
+    </div>
+
+    <!-- Main product -->
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-6">
+                        <div class="white-box text-center">
+                            <img src="../DoAnWeb_TuLam/images/product/leather_zip_boots.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="product-image">
+                                <img src="../DoAnWeb_TuLam/images/product/leather_zip_boots.png">
+                                <img src="../DoAnWeb_TuLam/images/product/leather_zip_boots-black-1.png">
+                                <img src="../DoAnWeb_TuLam/images/product/leather_zip_boots-black-2.png">
+                                <img src="../DoAnWeb_TuLam/images/product/leather_zip_boots-black-3.png">
+                                <img src="../DoAnWeb_TuLam/images/product/leather_zip_boots-black-4.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-6">
+                        <h2 class="box-title mt-5">Leather Zip Boots</h2>
+                        <h4>Thông tin sản phẩm</h4>
+                        <ul>
+                            <li>Da ngoài (Upper): Da Bò Italy (Italy Leather)</li>
+                            <li>Lót trong (Sock Lining): Da Bò (Leather)</li>
+                            <li>Đế (Outsole): Cao su (Rubber)</li>
+                            <li>Cấu trúc (Construction): Đế khâu McKay</li>
+                            </li>
+                        </ul>
+                        <h2 class="mt-5">
+                            1.950.000đ
+                        </h2>
+                        <div class="card-size-amount">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- <p>Size</p>
+                                    <div class="listdrop">
+                                        <p>39</p>
+                                        <p>40</p>
+                                        <p>41</p>
+                                        <p>42</p>
+                                        <p>43</p>
+                                        <p>44</p>
+                                        <p>45</p>
+                                    </div> -->
+                                    <p>Size</p>
+                                    <select>
+                                        <option>41</option>
+                                        <option>42</option>
+                                        <option>43</option>
+                                        <option>44</option>
+                                        <option>45</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Số lượng</p>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Mua nhiều hơn số lượng 5, vui lòng liên hệ <a href="tel:09039690709">SĐT:
+                                            0903690709</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="muaNgay" data-toggle="tooltip" title="" data-original-title="Add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            Mua ngay
+                        </button>
+                        <button class="addGioHang">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer" id="lienhe" style="background-color: black">
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">Địa chỉ</p>
+                <p class="text-bold">Tân Bình, Hẻm 68, Bùi Thị Xuân</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">Theo dõi</p>
+                <div class="icon-footer">
+                    <a href="https://www.facebook.com/pthinh1026/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/palsxxvi/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-item">
+                <p class="text-bold">Liên hệ</p>
+                <a href="tel:09039690709">SĐT: 0903690709</a>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <h2>Made by: Pals</h2>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Bảng size</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/size-chart.png" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../DoAnWeb_TuLam/javascript/jquery-3.6.0.min.js"></script>
+
+
+    <script src="../DoAnWeb_TuLam/javascript/slick-1.8.1/slick/slick.js"></script>
+
+    <script src="../DoAnWeb_TuLam/javascript/product.js"></script>
+
+
+</body>
+
+</html>
